@@ -1,0 +1,234 @@
+.elementor-kit-2283{--e-global-color-primary:#008FE0;--e-global-color-secondary:#FFFFFF;--e-global-color-text:#000000;--e-global-color-accent:#737373;--e-global-typography-primary-font-family:"Roboto";--e-global-typography-primary-font-weight:600;--e-global-typography-secondary-font-family:"Roboto Slab";--e-global-typography-secondary-font-weight:400;--e-global-typography-text-font-family:"Roboto";--e-global-typography-text-font-weight:400;--e-global-typography-accent-font-family:"Roboto";--e-global-typography-accent-font-weight:500;color:var( --e-global-color-text );font-family:"Plus Jakarta Sans", Sans-serif;}.elementor-kit-2283 e-page-transition{background-color:#FFBC7D;}.elementor-kit-2283 h1{color:var( --e-global-color-text );font-family:"Arial Black", Sans-serif;font-size:100px;}.elementor-kit-2283 h2{color:var( --e-global-color-text );font-size:80px;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1000px;}.e-con{--container-max-width:1000px;}.elementor-widget:not(:last-child){margin-block-end:40px;}.elementor-element{--widgets-spacing:40px 40px;--widgets-spacing-row:40px;--widgets-spacing-column:40px;}{}h1.entry-title{display:var(--page-title-display);}.site-header .site-branding{flex-direction:column;align-items:stretch;}.site-header{padding-inline-end:0px;padding-inline-start:0px;}.site-footer .site-branding{flex-direction:column;align-items:stretch;}@media(max-width:1024px){.elementor-kit-2283 h1{font-size:50px;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1024px;}.e-con{--container-max-width:1024px;}}@media(max-width:767px){.elementor-kit-2283 h1{font-size:30px;}.elementor-kit-2283 h2{font-size:24px;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}.e-con{--container-max-width:767px;}}/* Start custom CSS *//***** home page css start *****/
+.homepage-post article.elementor-post.elementor-grid-item {
+    text-align: center;
+}
+.home-pagination a.elementor-button {
+    font-size: 51px;
+}
+.home-post-info .elementor-post__meta-data span.elementor-post-avatar::before,
+.home-post-info .elementor-post-info__item-prefix {
+    font-weight: 100 !important;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.home-post-info .elementor-post-info__item-prefix { 
+    margin-left: 0px;
+}
+.page-template-default h3.elementor-post__title a {
+    pointer-events: none;
+    cursor: default;
+}
+section.top-header:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -10px;
+    border-top: 10px solid #008FE0;
+    z-index: 99999;
+}
+/***** home page css start *****/
+
+/***** post page css start *****/
+.single-page-pagination-middle a.elementor-button {
+    font-size: 46px;
+}
+.single-page-pagination-middle span.post-navigation__arrow-wrapper.post-navigation__arrow-prev i,
+.single-page-pagination-middle span.post-navigation__arrow-wrapper.post-navigation__arrow-next i {
+    display: none;  
+}
+.single-page-pagination-middle span.post-navigation__arrow-wrapper.post-navigation__arrow-prev,
+.single-page-pagination-middle span.post-navigation__arrow-wrapper.post-navigation__arrow-next {
+    content: "";
+    width: 51px;
+    height: 45px;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+}
+
+.single-page-pagination-middle span.post-navigation__arrow-wrapper.post-navigation__arrow-prev {
+    background: url(https://www.thatsockcomic.com/wp-content/uploads/2023/08/Layer_1-1.svg);
+}
+.single-page-pagination-middle span.post-navigation__arrow-wrapper.post-navigation__arrow-next {
+    background: url(https://www.thatsockcomic.com/wp-content/uploads/2023/08/Layer_1.svg);
+}
+.comment-reply-title {
+    color: #000000;
+    font-family: "Arial Black", Sans-serif;
+    font-size: 40px;
+}
+.comments-area p.comment-notes,
+.comments-area label  {
+    color: #000000;
+    font-family: "Plus Jakarta Sans", Sans-serif;
+    font-size: 16px;        
+    margin-bottom: 10px;
+}
+.form-submit input#submit {
+    border-color: #000000;
+    color: #000000;
+}
+.form-submit input#submit:hover {
+    color: #ffffff;
+    background-color: #000000;
+}
+.elementor-element.elementor-element-28c13df.elementor-widget.elementor-widget-post-comments,
+.elementor-element.elementor-element-61a702d.elementor-widget.elementor-widget-post-comments {
+    max-width: 600px;
+    margin: 0 auto 30px;
+}
+.comment-author.vcard b,
+.comment-author.vcard span.says {
+    color: #000000;
+    font-family: "Plus Jakarta Sans", Sans-serif;
+    font-size: 16px;
+}
+.comment-author.vcard span.says {
+    display: none;
+}
+.comment-metadata {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.comment-metadata time {
+    color: #737373;
+}
+em.comment-awaiting-moderation {
+    color: #000000;
+    font-family: "Plus Jakarta Sans", Sans-serif;
+    font-size: 16px;
+    margin-left: 15px;
+}
+.comment-content,
+.comment-content p {
+    color: #000000;
+    font-family: "Plus Jakarta Sans", Sans-serif;
+    font-size: 16px;
+}
+.comments-area h3.title-comments {
+    color: #000000;
+    font-family: "Arial Black", Sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.comment-reply-title small {
+    margin-left: 10px;
+}
+.comment-reply-title small a {
+    text-decoration: underline;
+    color: #000000;
+}
+.comment-author.vcard img.avatar {
+    display: none;
+}
+.comment-body {
+    padding-left: 0 !important;
+}
+.comment-metadata {
+    display: none;
+}
+.comment-author.vcard b a {
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: bold !important;
+    color: #000000;
+}
+#comments .comment-meta {
+    margin-bottom: 8px;
+}
+#comments article {
+    padding: 18px 0 25px !important;
+}
+#comments article {
+    padding: 18px 0 25px !important;
+    border-color: #737373 !important;
+}
+.comment-body .reply a.comment-reply-link {
+    color: #000000;
+    text-decoration: underline;
+}
+ol.comment-list {
+    margin-bottom: 20px !important;
+}
+.comment-respond p.logged-in-as a {
+    color: #000000;
+    text-decoration: underline;
+}
+.comment-author.vcard b a {
+    pointer-events: none;
+    cursor: default;
+}
+.home-post-info .elementor-widget-post-info ul li:first-child a {
+    pointer-events: none;
+    cursor: default;
+}
+.home-post-info h1.elementor-heading-title.elementor-size-default {
+    word-break: break-word;
+}
+.comment-author.vcard b {
+    font-family: "Arial", Sans-serif;
+}
+
+.home-pagination {
+    position: fixed !important;
+    bottom: 0 !important;
+    width: 100vw !important;
+}
+
+/***** post page css end *****/
+
+
+@media (max-width: 767px) {
+    .home-pagination a.elementor-button {
+        font-size: 35px;
+    }
+    .home-middle-random-post svg,
+    .home-post-oldest-btn svg,
+    .home-post-latest-btn svg{
+        width: 35px;
+    }
+    .single-page-pagination-middle span.post-navigation__arrow-wrapper.post-navigation__arrow-prev, .single-page-pagination-middle span.post-navigation__arrow-wrapper.post-navigation__arrow-next {
+        margin-top: 7px;
+        width: 35px;
+        height: 34px;
+    }
+    #comments .comment-meta {
+        flex-wrap: wrap;
+        gap: 10px;
+        align-items: center;
+    }
+    em.comment-awaiting-moderation {
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    .comments-area h3.title-comments {
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+    .comment-reply-title {
+        font-size: 30px;
+    }
+    .comment-reply-title {
+        font-size: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    .comment-reply-title small {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+}/* End custom CSS */
+/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Arial Black';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('https://www.thatsockcomic.com/wp-content/uploads/2023/08/Arial-Black.eot');
+	src: url('https://www.thatsockcomic.com/wp-content/uploads/2023/08/Arial-Black.eot?#iefix') format('embedded-opentype'),
+		url('https://www.thatsockcomic.com/wp-content/uploads/2023/08/Arial-Black.woff2') format('woff2'),
+		url('https://www.thatsockcomic.com/wp-content/uploads/2023/08/Arial-Black.woff') format('woff'),
+		url('https://www.thatsockcomic.com/wp-content/uploads/2023/08/Arial-Black.ttf') format('truetype');
+}
+/* End Custom Fonts CSS */
